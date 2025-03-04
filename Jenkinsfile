@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url:'https://github.com/Anushree12/Simple_docker.git',branch: 'main'
+                git url:'https://github.com/Anushreegm12/Simple_docker.git',branch: 'main'
             }
         }
 
